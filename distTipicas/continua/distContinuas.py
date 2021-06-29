@@ -70,7 +70,7 @@ while option != 5:
         INPUT = input().split(" ")
         a = float(INPUT[0])
         b = float(INPUT[1])
-        x = int(INPUT[2])
+        x = float(INPUT[2])
         stack.append(calculatePdfUni(a, b, x))
         stackCdf.append(calculateCdfUni(a, b, x))
         print("PDF =", stack[-1])
